@@ -1,0 +1,302 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  height: 84px;
+  width: 100%;
+  background: #eaf5f5;
+  gap: 600px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 340px;
+}
+
+.list__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding: 20px;
+  font-size: 22px;
+  color: #2b7a78;
+}
+
+.banner img {
+  width: 1150px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 642px 209px 200px;
+  grid-template-rows: auto auto;
+  column-gap: 40px;
+  row-gap: 16px;
+  width: 1150px;
+}
+
+.text1 {
+  grid-row: span 2;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.text2 {
+  color: #2b7a78;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.text3 {
+  color: #101215;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container3 {
+  background: #eaf5f5;
+  width: 100%;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.services h2 {
+  margin-top: 100px;
+  color: #101215;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.tContainer {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+  align-self: center;
+}
+
+.container4 {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.text4 {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  padding: 20px;
+  align-self: stretch;
+  width: 280px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: -2px 2px 4px -2px rgba(63, 63, 63, 0.08),
+    -2px 2px 4px -2px rgba(63, 63, 63, 0.12);
+}
+
+.text4 h3 {
+  color: #101215;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.text4 p {
+  color: #8d8b8b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text4 > img {
+  width: 70px;
+  height: 60px;
+}
+
+.infoContainer {
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub1 {
+  display: flex;
+  gap: 25px;
+  align-self: flex-start;
+  align-items: center;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  row-gap: 16px;
+  width: 360px;
+  margin: 0;
+}
+
+.infoContainer h3 {
+  color: #101215;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.img-info {
+  display: flex;
+  column-gap: 16px;
+  align-items: flex-start;
+}
+
+.comma-detail {
+  display: flex;
+  column-gap: 18px;
+}
+
+.name {
+  color: #101215;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400px;
+  margin-bottom: 0;
+}
+
+.post {
+  color: #ababab;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.details {
+  color: #8d8b8b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  width: 330px;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #111215;
+  width: 100%;
+  height: 500px;
+  gap: 75px;
+  margin-bottom: 5px;
+}
+.footerMaterial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 105px;
+}
+
+.footerMaterial div {
+  display: inline-block;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  width: 212px;
+}
+
+.intro .smIcons {
+  height: 23px;
+  width: 22px;
+}
+
+.medologyIcon {
+  height: 122px;
+  width: 100%;
+  margin-left: -30px;
+}
+
+.footerMaterial h3 {
+  color: #2b7a78;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 0px;
+}
+
+.footerMaterial p {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footerMaterial input {
+  width: 315px;
+  height: 57px;
+  flex-shrink: 0;
+  border-radius: 31px;
+  background: #fff;
+}
+
+button {
+  display: block;
+  width: 156px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 31px;
+  background: #2b7a78;
+  margin-top: 20px;
+}
+
+.lastContainer {
+  display: flex;
+  align-items: center;
+  gap: 570px;
+  margin-bottom: 50px;
+}
+
+.lastContainer p {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-block;
+  height: 40px;
+  width: 180px;
+  margin-top: 20px;
+}
